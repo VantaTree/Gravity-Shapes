@@ -11,7 +11,7 @@ def get_abs_angle(angle:float) -> float:
         return 360 + angle
     return angle
 
-class SpaeObject:
+class SpaceObject:
     def __init__(self, pos:tuple[int,int], speed:int, direction_angle:int, radius:int, sides:int, color:c, angular_speed:int):
         self.pos = list(pos)
         self.speed = speed
@@ -53,7 +53,7 @@ class SpaceObjectGroup:
     def __init__(self):
         self.objects = []
 
-    def add(self, obj:SpaeObject):
+    def add(self, obj:SpaceObject):
         self.objects.append(obj)
 
     def update(self):
@@ -130,7 +130,7 @@ buttons = {
 
 #objects
 for _ in range(objects_in_space):
-    obj = SpaeObject(
+    obj = SpaceObject(
         (randint(0, W), randint(0, H)), #pos
         randint(1, 10), #speed
         randint(0, 360), #angle
