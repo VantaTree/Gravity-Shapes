@@ -1,5 +1,5 @@
 # Gravity-Shapes
-Simulating random motion and gravity in Raylib-Python and C++
+Simulating random motion and gravity in Raylib-Python, Raylib-C++, macroquad-rust.
 
 (pls don't judge me. I learned C++ for 2 days to make it.)
 
@@ -15,3 +15,8 @@ Shift|R to toggle rotation
 Esc|Q to exit
 
 or use the buttons placed above
+
+# Preview
+
+![]
+(https://github.com/VantaTree/Gravity-Shapes/blob/main/preview.gif)
