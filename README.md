@@ -18,5 +18,4 @@ or use the buttons placed above
 
 # Preview
 
-![]
-(https://github.com/VantaTree/Gravity-Shapes/blob/main/preview.gif)
+![preview GIF](https://github.com/VantaTree/Gravity-Shapes/blob/main/preview.gif)
